@@ -11,8 +11,9 @@ namespace WebApplication1.Controllers
         public ActionResult Index()
         {
             return View();
-        }
 
+        }
+        //Testing
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -23,7 +24,7 @@ namespace WebApplication1.Controllers
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
-
+            ViewBag.Message1 = "Your contact page.";
             return View();
         }
     }
